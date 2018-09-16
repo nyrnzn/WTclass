@@ -1,3 +1,7 @@
+<!--
+	A solution to this question:
+	Write a serverside script for user registration having input field username, password, email, phone with a proper client-side validation.
+-->
 <!DOCTYPE html>
 <html>
 <head>
