@@ -16,7 +16,9 @@
 <body>
 	<h1>Registration</h1>
 	<p>All fields are required.</p>
-	<form action="" method="POST" onsubmit="return validateForm();">
+	
+	# htmlspecialchars() method prevents SQL Injection and Cross Site Scripting.
+	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" onsubmit="return validateForm();">
 		<label>
 			Username: <input type="text" name="username" id="username">
 		</label>
